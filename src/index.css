@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Nunito:ital,wght@1,200&display=swap');
+
+.text-content {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.display {
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.1em;
+}
+
+.img-book {
+  width: 110px;
+  height: 110px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +31,76 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hr {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main { 
+  background: url(https://media.istockphoto.com/photos/african-lovely-woman-hugging-shy-daughter-picture-id1270066556?b=1&k=20&m=1270066556&s=170667a&w=0&h=kReFBUIbFOe32589qwU8AuZKvAMtbSORU4Y74cNDgRM=) 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 310px;
+  width: 100%;
+  padding-top: 340px;
+  padding-bottom: 410px;
+}
+
+.adjust {
+  float: right;
+}
+
+#nav1 {
+  display: block;
+  font-size: 18px;
+}
+
+
+.float-right {
+  float: right;
+}
+
+#nav2 {
+  display:none;
+}
+
+@media(max-width: 750px){
+  #nav1 {
+    display: none;
+  }
+  
+  #nav2 {
+    display:block;
+    font-size: 18px;
+  }
+}
+
+.content {
+  background-image: linear-gradient(176deg, rgb(50, 50, 58) 70%, #F4F4F4 70%);
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.style {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.img {
+  width: 90px;
+  height: 90px;
+}
+
+.max-img {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 70%;
+  max-height: 460px;
 }
